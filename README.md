@@ -32,6 +32,11 @@ Welcome to **Powering the Future: A Global Energy Generation Analysis**! This pr
 - **Time-Series Analysis** with moving averages to spot consumption patterns.
 - **Forecasting**: Use **linear regression** to predict future energy trends and analyze country-specific growth.
 
+4. Dynamic Dashboard:
+- Interactive visualization of key metrics: trends in energy generation over time, breakdown by technology, and the Top 10 energy-consuming countries. This Dashboard is available on Tableau Public: https://public.tableau.com/app/profile/julia.mochel/viz/PoweringtheFuture/Dashboard. 
+
+<img width="1180" alt="Powering the Future Dashboard" src="https://github.com/user-attachments/assets/33ac68d6-a49f-4bb2-9638-1a5a4f2356a4" />
+
 ## 💡 Key Insights & Discoveries
 
 - **Top Consumers**: Identify countries with the highest and lowest energy consumption.
@@ -58,9 +63,11 @@ Here are some ideas that could take this project even further:
 
 ## 🚀 How to Run the Project
 
-1️⃣ Download the dataset and SQL script.
+1️⃣ Download the dataset, SQL script, and Tableau dashboard.
 
 2️⃣ Run the SQL queries in your preferred database system.
+
+3️⃣ Open the interactive Tableau Public dashboard to explore key insights such as energy generation trends, technology breakdowns, and top-consuming countries.
 
 ## Let’s power up the future of energy! 🌞
 
