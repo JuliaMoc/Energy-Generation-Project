@@ -63,6 +63,5 @@ This dashboard was built with **Streamlit**, showcasing:
 - Python-based data transformation and cleaning
 - Interactive visualizations using Plotly, Seaborn, and Matplotlib
 
-🔗 To view the dashboard locally, run:
-```bash
-streamlit run app.py
+🔗 [View the Air Quality Dashboard](https://energy-generation-project.streamlit.app)
+
