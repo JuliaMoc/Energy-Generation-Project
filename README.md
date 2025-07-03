@@ -46,21 +46,6 @@ Welcome to **Powering the Future: A Global Energy Generation Analysis**! This pr
 - **Time Series**: Track the progress of energy consumption over time and identify key turning points.
 - **Energy Forecasting**: Predict future consumption patterns based on historical data.
 
-## 🛠️ Future Enhancements
-
-The project is not yet fully completed, and the journey continues. Here’s what’s coming next:
-
-1. **API Integration**: Expanding the dataset with real-time or additional external data sources.
-2. **Interactive Dashboard (Power BI)**: Creating an engaging and dynamic dashboard to visualize global energy trends. It will offer in-depth, user-friendly reports with customizable filters for deeper insights.
-
-## 🧠 Ideas for Expansion
-
-Here are some ideas that could take this project even further:
-
-1. **Sustainability Tracker**: Add a sustainability index to track progress towards renewable energy goals across countries.
-2. **Machine Learning Models**: Use advanced ML models to predict long-term energy trends and help optimize energy production strategies.
-3. **Cloud Storage (AWS S3)**: Leveraging the power of AWS for scalable data storage and fast access.
-
 ## 🚀 How to Run the Project
 
 1️⃣ Download the dataset, SQL script, and Tableau dashboard.
@@ -69,5 +54,15 @@ Here are some ideas that could take this project even further:
 
 3️⃣ Open the interactive Tableau Public dashboard to explore key insights such as energy generation trends, technology breakdowns, and top-consuming countries.
 
-## Let’s power up the future of energy! 🌞
+## 🎁 Bonus: Air Quality Dashboard (Streamlit)
 
+To complement the energy consumption analysis, I integrated additional data from the **OpenWeather API** to explore **air quality** in the **Top 10 energy-consuming countries**, also featured in the Tableau dashboard above.
+
+This dashboard was built with **Streamlit**, showcasing:
+- API-derived real-world data
+- Python-based data transformation and cleaning
+- Interactive visualizations using Plotly, Seaborn, and Matplotlib
+
+🔗 To view the dashboard locally, run:
+```bash
+streamlit run app.py
